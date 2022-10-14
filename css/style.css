@@ -56,6 +56,20 @@
     background-color: orange !important;
 }
 
-.nombre {
-    justify-content: center;
+.blanco {
+    height: 900px;
+    background-color: white;
+}
+
+.negro {
+    height: 100px;
+}
+
+.menu {
+    background-color: white;
+    width: 200px;
+}
+
+.rojo {
+    background-color: red;
 }
