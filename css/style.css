@@ -59,6 +59,7 @@
 .blanco {
     height: 900px;
     background-color: white;
+<<<<<<< HEAD
 }
 
 .negro {
@@ -94,4 +95,19 @@
     background-color: black;
     height: 100px;
     width: 100px;
+=======
+}
+
+.negro {
+    height: 100px;
+}
+
+.menu {
+    background-color: white;
+    width: 200px;
+}
+
+.rojo {
+    background-color: red;
+>>>>>>> 7b53a79b5b16f36f495bf230cea2f91a50f64a8f
 }
