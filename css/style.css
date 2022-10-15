@@ -56,6 +56,42 @@
     background-color: orange !important;
 }
 
-.nombre {
+.blanco {
+    height: 900px;
+    background-color: white;
+}
+
+.negro {
+    height: 100px;
+}
+
+.menu {
+    background-color: white;
+    width: 200px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.centrar {
+    justify-content: center !important;
+    padding: 20px;
+}
+
+.color {
+    background-color: white;
     justify-content: center;
+}
+
+.morado {
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+}
+
+.black {
+    background-color: black;
+    height: 100px;
+    width: 100px;
 }

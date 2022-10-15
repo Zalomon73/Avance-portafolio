@@ -14,8 +14,7 @@
     <div class="container menu">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <div class="logomenu col-1"><img src="images/Isotipo Zalomon Ascencio Media Producer.png" alt="" height="60px"></div>
-                <div class="nombre"><h5>Zalomon Ascencio</h5><h5>Media Produccer</h5></div>
+                <a class="logomenu col-1" style="margin: 0 1rem; border: none;" href="index.html" role="button"><img src="images/house-chimney-solid.svg" alt="" height="50px"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -31,32 +30,34 @@
             </div>
           </nav>
     </div>
-    <div class="container cuerpo">
-        <div class="row">
-                <div class="col-6 d-flex">
-                    <div class="caja2" style="display: flex; justify-content: end;align-items: center; ;">
-                        
-                        <div class="col-11 caja4">
-                            <div class=" caja4">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 d-flex">
-                    <div class="caja3" style="display: flex; justify-content: start;align-items: center;">
-                        <div class="col-11 caja5">
-                            <div class="caja5">
-                                <img src="images/PNG/Mesa de trabajo 17.png" alt="" width="100%" height="650px" style="display: flex; justify-content: center;">
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-        </div>
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/PNG/1.png" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/PNG/4.png" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/PNG/3.png" class="d-block w-100" alt="">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
-
-    
-
-
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
