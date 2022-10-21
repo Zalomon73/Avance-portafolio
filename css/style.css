@@ -104,3 +104,41 @@
     background-color: blue;
     height: 750px;
 }
+
+@font-face {
+    font-family: lettersforlearners;
+    src: url(letters.ttf);
+}
+
+@font-face {
+    font-family: britannicbold;
+    src: url(britannic.ttf);
+}
+
+p {
+    font-family: lettersforlearners;
+}
+
+h1 {
+    font-family: britannicbold;
+}
+
+.gh {
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+}
+
+.withe {
+    background-color: white;
+    height: 200px;
+}
+
+.imagen {
+    background-color: black;
+    height: 200px;
+}
+
+.kl {
+    height: 70px;
+}
