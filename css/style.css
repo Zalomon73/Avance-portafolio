@@ -89,3 +89,18 @@
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+
+.naranja {
+    background-color: orange;
+    height: 750px;
+}
+
+.verde {
+    background-color: green;
+    height: 750px;
+}
+
+.azul {
+    background-color: blue;
+    height: 750px;
+}
