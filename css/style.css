@@ -58,7 +58,7 @@
 }
 
 .blanco {
-    height: 1200px;
+    height: 750px;
     background-color: white;
 }
 
@@ -145,4 +145,9 @@ h1 {
 
 .texto {
     padding: 200px;
+}
+
+.za {
+    color: white;
+    font-size: 60px;
 }
